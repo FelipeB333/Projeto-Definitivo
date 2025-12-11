@@ -6,7 +6,7 @@ const mysql = new Sequelize({
     host: 'dpg-d4tahg3uibrs73cegr6g-a',
     port: '5432',
     database: 'projeto_final_oo9m',
-    username: 'use_database_i3a',
+    username: 'user_database_i3a',
     password: 'dcFz8u3eJ0cI6TcvhVFjfdD7YTmN8X8'
 });
 /*
