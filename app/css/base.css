@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bungee Spice", sans-serif;
+}
+
+body{
+  background-color: rgb(255, 221, 157);
+}
+
+header {
+    background-color: rgb(255, 166, 0);
+    height: 8vh;
+}
+
+main{
+    background-color: rgb(252, 196, 92);
+    min-height: 15vh;
+    img{
+        display: flexbox;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+footer{
+    background-color: yellow;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: aquamarine;
+        text-align: center;
+    }
+    /* classe reotilizavel */
+    .bt-classico{
+        padding: 8px;
+        margin: 2px;
+        border: 0.1px solid skyblue;
+        font-size: 1.3em;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+}
