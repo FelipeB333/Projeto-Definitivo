@@ -63,6 +63,5 @@ Ingrediente.belongsTo(Fornecedor);
 Fornecedor.hasMany(Ingrediente);
 
 //mysql.sync({force: true})
-mysql.sync();
 
 export { Cliente, Funcionario, Pedido, Produto, Fornecedor, Ingrediente };
