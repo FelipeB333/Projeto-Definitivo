@@ -7,7 +7,7 @@ const mysql = new Sequelize({
     port: '5432',
     database: 'projeto_final_oo9m',
     username: 'user_database_i3a',
-    password: 'dcFz8u3eJ0cI6TcvhVFjfdD7YTmN8X8'
+    password: 'dcFz8u3eJ0cI6TcvdhVFjfdD7YTmN8X8'
 });
 /*
 import mysql2 from 'mysql2';
